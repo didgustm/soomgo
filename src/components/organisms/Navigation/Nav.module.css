@@ -1,0 +1,49 @@
+.nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--white);
+    font: 400 1.1rem/1.81 noto;
+    color: #a2afbc;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1.2rem 1.5rem 1rem;
+    text-align: center;
+    border-top: 1px solid #ecf0f3;
+}
+.list a {
+    display: block;
+    width: 4.6rem;
+}
+.list span {
+    display: block;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin: 0 auto 0.4rem;
+    background: no-repeat 50% / 100%;
+}
+.list1 span {
+    background-image: url(@assets/images/common/ic_home.png);
+}
+.list1.on span {
+    background-image: url(@assets/images/common/ic_home_on.png);
+}
+.list2 span {
+    background-image: url(@assets/images/common/ic_community.png);
+}
+.list3 span {
+    background-image: url(@assets/images/common/ic_map.png);
+}
+.list4 span {
+    background-image: url(@assets/images/common/ic_vote.png);
+}
+.list5 span {
+    background-image: url(@assets/images/common/ic_mypage.png);
+}
+.list .on {
+    color: var(--black);
+}

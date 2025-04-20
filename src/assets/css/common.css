@@ -1,0 +1,68 @@
+@font-face {
+    font-family: pre;
+    src: url(../fonts/Pretendard-vf.woff2) format(woff2);
+}
+@font-face {
+    font-family: noto;
+    src: url(../fonts/NotoSansKR-Regular.woff2) format(woff2);
+    font-weight: 400;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body,
+html,
+h1,
+h2,
+ul,
+p,
+dl,
+dd,
+button,
+img {
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2 {
+    font: inherit;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
+a,
+button {
+    -webkit-tap-highlight-color: transparent;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --gray: #717B85;
+    font: 400 10px/1 pre;
+    font-variation-settings: "wght" 400;
+    line-height: 1;
+    touch-action: manipulation;
+}
+#root {
+    font-size: 1.6rem;
+    padding-bottom: 7.1rem
+}

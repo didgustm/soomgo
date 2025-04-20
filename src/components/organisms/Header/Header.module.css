@@ -1,0 +1,24 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 1.6rem;
+    background: var(--white);
+}
+.logo {
+    font-variation-settings: "wght" 700;
+    line-height: 1.625;
+    color: #111;
+}
+.back {
+    order: -1;
+}
+.bookmark {
+    width: 2.4rem;
+    height: 2.4rem;
+}
