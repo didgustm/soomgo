@@ -1,0 +1,89 @@
+.header {
+    background: var(--white);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 2rem;
+}
+.left {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.info .img {
+    width: 3.8rem;
+    height: 3.8rem;
+    margin-right: 1.6rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.info dt {
+    display: flex;
+    align-items: center;
+    font-variation-settings: "wght" 700;
+}
+.info dt p {
+    font-size: 1.4rem;
+    margin-right: 0.4rem;
+}
+.info dt span {
+    color: #009494;
+}
+.info dd {
+    display: flex;
+    align-items: center;
+}
+.address {
+    color: var(--gray);
+}
+.notice {
+    position: relative;
+}
+.notice span {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #ff2323;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.3rem;
+    color: var(--gray);
+    line-height: 1.625;
+    text-align: center;
+    border-bottom: 2px solid #dde4eb;
+}
+.tabs li {
+    width: 25%;
+}
+.tabs a {
+    position: relative;
+    display: block;
+    padding-bottom: 1rem;
+}
+.tabs a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px;
+    background: #000;
+    opacity: 0;
+}
+.tabs .on {
+    font-variation-settings: "wght" 700;
+    color: var(--black);
+}
+.tabs .on a::after {
+    opacity: 1;
+}

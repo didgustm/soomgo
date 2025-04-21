@@ -41,9 +41,6 @@
 .tab .on::after {
     opacity: 1;
 }
-.container {
-    padding: 0 2rem;
-}
 .list a,
 .empty {
     display: block;

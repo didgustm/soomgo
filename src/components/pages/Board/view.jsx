@@ -78,7 +78,7 @@ function BoardView() {
                     );
                 })}
             </ul>
-            <div className={`${styles.view} ${styles.container}`}>
+            <div className={`${styles.view} container`}>
                 <div className={styles.viewTop}>
                     <p>{board.view.caption}</p>
                     <h2>{board.title}</h2>

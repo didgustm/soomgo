@@ -16,7 +16,6 @@ export const lists = [
         likeCount: 13,
         view: {
             caption: "동의진행 청원",
-            // title: "",
             field: "수사/법무/사법제도",
             committ: "법제사법위원회",
             date: "2025.03.24",
@@ -46,7 +45,6 @@ export const lists = [
         likeCount: 13,
         view: {
             caption: "동의진행 청원",
-            // title: "",
             field: "수사/법무/사법제도",
             committ: "법제사법위원회",
             date: "2025.03.24",
@@ -76,7 +74,6 @@ export const lists = [
         likeCount: 13,
         view: {
             caption: "동의진행 청원",
-            // title: "",
             field: "수사/법무/사법제도",
             committ: "법제사법위원회",
             date: "2025.03.24",
@@ -100,7 +97,6 @@ export const lists = [
         likeCount: 123,
         view: {
             caption: "동의진행 청원",
-            // title: "",
             field: "수사/법무/사법제도",
             committ: "법제사법위원회",
             date: "2025.03.24",
@@ -124,7 +120,6 @@ export const lists = [
         likeCount: 0,
         view: {
             caption: "동의진행 청원",
-            // title: "",
             field: "수사/법무/사법제도",
             committ: "법제사법위원회",
             date: "2025.03.24",

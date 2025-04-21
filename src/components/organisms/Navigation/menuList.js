@@ -12,7 +12,7 @@ export const menuList = [
         name: "우리동네",
     },
     {
-        path: "/vote",
+        path: "/notice",
         name: "제안/투표"
     },
     {

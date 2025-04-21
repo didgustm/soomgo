@@ -15,7 +15,7 @@ function ListElement({ type }) {
         setTypeList(lists.filter((l) => l.type === type));
     }, []);
     return (
-        <ul className={`${styles.list} ${styles.container}`}>
+        <ul className={`${styles.list} container`}>
             {typeList.length === 0 ? (
                 <li className={styles.empty}>게시물이 없습니다.</li>
             ) : (

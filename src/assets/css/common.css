@@ -17,6 +17,7 @@ body,
 html,
 h1,
 h2,
+h3,
 ul,
 p,
 dl,
@@ -27,7 +28,8 @@ img {
     padding: 0;
 }
 h1,
-h2 {
+h2,
+h3 {
     font: inherit;
 }
 li {
@@ -65,4 +67,7 @@ img {
 #root {
     font-size: 1.6rem;
     padding-bottom: 7.1rem
+}
+.container {
+    padding: 0 2rem;
 }

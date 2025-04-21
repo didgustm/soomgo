@@ -1,0 +1,100 @@
+.inner {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.title {
+    margin-bottom: 1.2rem;
+    font-size: 1.8rem;
+    line-height: 26px;
+    font-variation-settings: "wght" 700;
+}
+.list li > a {
+    position: relative;
+    display: block;
+    padding-bottom: 1.6rem;
+    margin-bottom: 1.6rem;
+    border-bottom: 1px solid #dde4eb;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.writing li > a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.writing .img {
+    width: 12rem;
+    height: 9rem;
+}
+.writing .txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - 12rem - 1.6rem);
+}
+.writing .list p {
+    color: var(--gray);
+}
+.writing .controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.4rem;
+    font-size: 1.2rem;
+}
+.writing .controls button {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    min-width: 4rem;
+    height: 3.2rem;
+    background: var(--white);
+    border: 1px solid #d1d8df;
+    border-radius: 6px;
+    padding: 0 0.8rem;
+    color: var(--gray);
+}
+.writing .btnLike span {
+    order: 2;
+}
+.writing .controls .btnDelete {
+    color: #eb0909;
+}
+
+.category {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #4b515a;
+    text-align: center;
+    background: #f2f3f6;
+    padding: 2px 0.8rem;
+    border-radius: 4px;
+}
+.receive h3 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: 0.8rem 0 0.4rem;
+    font-variation-settings: "wght" 700;
+}
+.receive h3 span {
+    max-width: calc(100% - 1.5rem);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.receive .list p {
+    color: #333;
+}
+.receive .read {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.2rem;
+    color: #13a0ad !important;
+}
+.receive .readed h3,
+.receive .readed p {
+    color: var(--gray);
+}

@@ -41,6 +41,9 @@
 .list4 span {
     background-image: url(@assets/images/common/ic_vote.png);
 }
+.list4.on span {
+    background-image: url(@assets/images/common/ic_vote_on.png);
+}
 .list5 span {
     background-image: url(@assets/images/common/ic_mypage.png);
 }
