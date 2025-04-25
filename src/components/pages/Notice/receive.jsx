@@ -3,29 +3,33 @@ import { Link } from "react-router-dom";
 import { receiveList } from "./receiveList";
 import styles from "./Notice.module.css";
 import newImg from "@assets/images/common/new.png";
+import arrow from "@assets/images/notice/arrow_right.png";
 
 function Receive() {
     return (
         <div className={`container ${styles.receive} ${styles.inner}`}>
             <h2 className={styles.title}>받은 제안함</h2>
             <ul className={styles.list}>
-                {receiveList.map((receive, index) => {
+                {receiveList && receiveList.map((list, index) => {
                     return (
-                        <li key={index} className={receive.read? styles.readed: ""}>
+                        <li
+                            key={index}
+                            className={list.read ? styles.readed : ""}
+                        >
                             <Link to="#">
                                 <span className={styles.category}>
-                                    {receive.type}
+                                    {list.category}
                                 </span>
                                 <h3>
-                                    <span>{receive.title}</span>
-                                    {!receive.read && (
+                                    <span>{list.title}</span>
+                                    {!list.read && (
                                         <img src={newImg} alt="NEW" />
                                     )}
                                 </h3>
-                                <p>{receive.desc}</p>
-                                {receive.read && (
+                                <p className={styles.desc}>{list.desc}</p>
+                                {list.read && (
                                     <div className={styles.read}>
-                                        {receive.readDate} 읽음
+                                        {list.readDate} 읽음
                                     </div>
                                 )}
                             </Link>
@@ -33,6 +37,10 @@ function Receive() {
                     );
                 })}
             </ul>
+            <button type="button" className={styles.btnMore}>
+                더보기
+                <img src={arrow} alt="" />
+            </button>
         </div>
     );
 }

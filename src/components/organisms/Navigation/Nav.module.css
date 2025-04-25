@@ -6,6 +6,7 @@
     background: var(--white);
     font: 400 1.1rem/1.81 noto;
     color: #a2afbc;
+    z-index: 98;
 }
 .list {
     display: flex;
@@ -39,10 +40,10 @@
     background-image: url(@assets/images/common/ic_map.png);
 }
 .list4 span {
-    background-image: url(@assets/images/common/ic_vote.png);
+    background-image: url(@assets/images/common/ic_people.png);
 }
 .list4.on span {
-    background-image: url(@assets/images/common/ic_vote_on.png);
+    background-image: url(@assets/images/common/ic_people_on.png);
 }
 .list5 span {
     background-image: url(@assets/images/common/ic_mypage.png);

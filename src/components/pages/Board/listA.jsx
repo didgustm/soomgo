@@ -8,10 +8,10 @@ function BoardListA() {
         setTitle("국민 청원");
     }, []);
     return (
-        <>
+        <div className="container">
             <Tabs />
             <ListElement type={0} />
-        </>
+        </div>
     );
 }
 

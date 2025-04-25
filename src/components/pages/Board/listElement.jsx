@@ -6,16 +6,12 @@ import newImg from "@assets/images/common/new.png";
 
 function ListElement({ type }) {
     const [typeList, setTypeList] = useState([]);
-    /**
-     * 카테고리 0, 1
-     */
-    const category = ["창업/지원", "일자리"];
 
     useEffect(() => {
         setTypeList(lists.filter((l) => l.type === type));
     }, []);
     return (
-        <ul className={`${styles.list} container`}>
+        <ul className={`${styles.list}`}>
             {typeList.length === 0 ? (
                 <li className={styles.empty}>게시물이 없습니다.</li>
             ) : (
@@ -24,7 +20,7 @@ function ListElement({ type }) {
                         <li key={index}>
                             <Link to={`${list.id}`}>
                                 <span className={styles.category}>
-                                    {category[list.category]}
+                                    {list.category}
                                 </span>
                                 <p className={styles.title}>
                                     <span>{list.title}</span>

@@ -1,14 +1,13 @@
 /**
  * Board list
  * type: 0 국민동의 / 1 의원소개
- * category: 0 창업/지원 / 1 일자리
  * view > step 0 위원회 회부 / 1 소위원회 회부 / 2 소위원회 심사 / 3 전체위원회 의결
  */
 export const lists = [
     {
         id: 5,
         type: 0,
-        category: 1,
+        category: "일자리",
         title: "연제 청년 나래센터",
         desc: "연제구에서 창업 업주 기업을 지원하고 있습니다.",
         bookmark: true,
@@ -37,7 +36,7 @@ export const lists = [
     {
         id: 4,
         type: 0,
-        category: 0,
+        category: "창업/지원",
         title: "연제 청년 나래센터",
         desc: "연제구에서 창업 업주 기업을 지원하고 있습니다.",
         bookmark: true,
@@ -66,7 +65,7 @@ export const lists = [
     {
         id: 3,
         type: 0,
-        category: 1,
+        category: "일자리",
         title: "테스트 테스트 ABC",
         desc: "연제구에서 창업 업주 기업을 지원하고 있습니다. 연제구에서 창업 업주 기업을 지원하고 있습니다. 연제구에서 창업 업주 기업을 지원하고 있습니다.",
         bookmark: false,
@@ -89,7 +88,7 @@ export const lists = [
     {
         id: 2,
         type: 0,
-        category: 0,
+        category: "창업/지원",
         title: "테스트",
         desc: "테스트 하는 중입니다.",
         bookmark: true,
@@ -112,7 +111,7 @@ export const lists = [
     {
         id: 1,
         type: 0,
-        category: 0,
+        category: "창업/지원",
         title: "연제 청년 나래센터",
         desc: "연제구에서 창업 업주 기업을 지원하고 있습니다.",
         bookmark: false,
